@@ -1,8 +1,5 @@
 # Django-Notes
 
-Your text is mostly clear, but it has a few grammar and typographical issues. Here's the corrected version:
-
----
 
 Before learning Django, we need to understand the basics of Python, including its syntax and how it works. This is important because Django is a web framework developed using Python.  
 We must understand functions, arguments/parameters, modules, and packages in Python to learn Django effectively.
