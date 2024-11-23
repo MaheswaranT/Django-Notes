@@ -51,10 +51,10 @@ We must understand functions, arguments/parameters, modules, and packages in Pyt
 
 **Modules:** A module is a single file that contains a group of functions, classes, or variables.  
 Ways of using modules:  
-- `import module`  
-- `from module import *`  
-- `import module as aliasname`  
-- `from module import function as aliasname`  
+`import module`  
+`from module import *`  
+`import module as aliasname`  
+`from module import function as aliasname`  
 
 **Packages:** A package is a collection of modules or related modules. A package is similar to a folder, but it includes an `__init__.py` file, which is known as a script file. To convert any folder into a Python package, we must add an `__init__.py` file. If a folder does not include an `__init__.py` file, it is considered a normal folder.
 
@@ -63,9 +63,9 @@ Django offers high scalability, allowing it to perform well whether there are 10
 
 **Design Pattern:** The most common and familiar design pattern is MVC (Model View Controller).  
 A design pattern separates an application into three parts:  
-- **Model:** Manages the application's data and business logic.  
-- **View:** Handles the layout and display of the data.  
-- **Controller:** Routes commands to the model and view parts.  
+**Model:** Manages the application's data and business logic.  
+**View:** Handles the layout and display of the data.  
+**Controller:** Routes commands to the model and view parts.  
 
 **Example: Restaurant**  
 The customer is the view, the waiter is the controller, the chef is the model, and the fridge is the data.
@@ -88,13 +88,13 @@ django-admin startproject myproject
 After creating a Django project, the default structure looks like this:  
 ```
 project/
-    - manage.py
-    - myproject/
-        -- __init__.py
-        -- settings.py
-        -- urls.py
-        -- asgi.py
-        -- wsgi.py
+    manage.py
+    myproject/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
 ```
 
 **File Descriptions:**  
@@ -154,12 +154,12 @@ py manage.py startapp myapp
 **Structure of `myapp/`:**  
 ```
 myapp/
-- __init__.py
-- admin.py
-- apps.py
-- models.py
-- tests.py
-- views.py
+__init__.py
+admin.py
+apps.py
+models.py
+tests.py
+views.py
 ```
 
 **File Descriptions:**  
